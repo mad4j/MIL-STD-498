@@ -142,36 +142,34 @@ differences in these characteristics from the point of view of the
 interfacing entities (such as different expectations about the
 size, frequency, or other characteristics of data elements):
 
-Priority that the CSCI must assign the interface
-Requirements on the type of interface (such as real-time data
-transfer, storage-and-retrieval of data, etc.) to be implemented
-Required characteristics of individual data elements that the CSCI
-must provide, store, send, access, receive, etc., such as:
-1.  Names/identifiers
-2.  1.  Project-unique identifier
-    2.  Non-technical (natural language) name
-    3.  DoD standard data element name
-    4.  Technical name (e.g., record or data structure name in code or
+1. Priority that the CSCI must assign the interface
+2. Requirements on the type of interface (such as real-time data
+   transfer, storage-and-retrieval of data, etc.) to be implemented
+3. Required characteristics of individual data elements that the CSCI
+   must provide, store, send, access, receive, etc., such as:
+    1.  Names/identifiers
+        1.  Project-unique identifier
+        2.  Non-technical (natural language) name
+        3.  DoD standard data element name
+        4.  Technical name (e.g., record or data structure name in code or
         database)
-    5.  Abbreviations or synonymous names
-
-3.  Data type (alphanumeric, integer, etc.)
-4.  Size and format (such as length and punctuation of a character
-    string)
-5.  Units of measurement (such as meters, dollars, nanoseconds)
-6.  Range or enumeration of possible values (such as 0-99)
-7.  Accuracy (how correct) and precision (number of significant
-    digits)
-8.  Priority, timing, frequency, volume, sequencing, and other
+        5.  Abbreviations or synonymous names
+    2.  Data type (alphanumeric, integer, etc.)
+    3.  Size and format (such as length and punctuation of a character
+        string)
+    4.  Units of measurement (such as meters, dollars, nanoseconds)
+    5.  Range or enumeration of possible values (such as 0-99)
+    6.  Accuracy (how correct) and precision (number of significant
+        digits)
+    7.  Priority, timing, frequency, volume, sequencing, and other
     constraints, such as whether the data element may be updated and
     whether business rules apply
-9.  Security and privacy constraints
-10. Sources (setting/sending entities) and recipients
-    (using/receiving entities)
-
-Required characteristics of data element assemblies (records,
-messages, files, arrays, displays, reports, etc.) that the CSCI
-must provide, store, send, access, receive, etc., such as:
+    8.  Security and privacy constraints
+    9. Sources (setting/sending entities) and recipients
+       (using/receiving entities)
+4. Required characteristics of data element assemblies (records,
+   messages, files, arrays, displays, reports, etc.) that the CSCI
+   must provide, store, send, access, receive, etc., such as:
 1.  Names/identifiers
     1.  Project-unique identifier
     2.  Non-technical (natural language) name
